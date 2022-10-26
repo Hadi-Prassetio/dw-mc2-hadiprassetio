@@ -40,11 +40,12 @@ func PowerUp(p Profile, i int) Profile {
 }
 
 func main() {
-	profile := MakeProfile("Sasuke")
+	profile := MakeProfile("Naruto")
 	fmt.Println("Name :", profile.Name)
 	fmt.Println("Health :", profile.Health)
 	fmt.Println("Power :", profile.Power)
 	fmt.Println("Exp :", profile.Exp)
+	fmt.Println("===HEROES POWER UP===")
 	powerUp := PowerUp(profile, 2)
 	fmt.Println("Name :", powerUp.Name)
 	fmt.Println("Health :", powerUp.Health)
